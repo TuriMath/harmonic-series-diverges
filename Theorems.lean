@@ -2,3 +2,4 @@
 import Theorems.HarmonicSeriesDiverges.A
 import Theorems.HarmonicSeriesDiverges.B
 import Theorems.HarmonicSeriesDiverges.Equiv
+import Theorems.HarmonicSeriesDiverges.Proof
