@@ -1,0 +1,14 @@
+{
+  "slug": "HarmonicSeriesDiverges",
+  "issue": "TuriMath/harmonic-series-diverges#1",
+  "tier": 1,
+  "source": "Wikipedia, Harmonic series (mathematics), lead; Wiedijk 100 #34",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Finset.sum_Ioc_consecutive", "Finset.card_nsmul_le_sum", "one_div_le_one_div_of_le", "Metric.tendsto_nhds", "Filter.Tendsto.sub", "Filter.tendsto_id.const_mul_atTop'"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Did not cite Real.tendsto_sum_range_one_div_nat_succ_atTop. If partial sums converged to L then H(2n)-H(n) -> 0, but each block of n terms 1/k (n<k<=2n) is >= n*(1/(2n)) = 1/2. Compiled first try."
+}
