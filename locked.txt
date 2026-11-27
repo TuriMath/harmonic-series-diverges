@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+0c0bba1bd0fc1c18e57321c791dbc59553fefb9056ff54c1cfd53a84fa5f42c1  Theorems/HarmonicSeriesDiverges/A.lean
+3a61a1807b30402b399cc48eb210885cd325245f4b89df44c88cd13c7378e457  Theorems/HarmonicSeriesDiverges/B.lean
+c55bf34a9893ed66330668390622391147580251673e1838c1377a2f36d6b4a2  Theorems/HarmonicSeriesDiverges/Equiv.lean
